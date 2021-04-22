@@ -1,12 +1,12 @@
 ****랜덤 포레스트 개요****
 
 - [앙상블 학습 (ensemble learning)](https://github.com/krrrr-b/ensemble-learning) 절차에 따라 다수의 의사결정나무를 생성한 후 개별 의사결정 나무의 예측결과를 종합하여 데이터를 분류
-- 배깅 (bagging, [bootstrap](https://github.com/krrrr-b/bootstrap/blob/main/README.md) aggregating) 의 기본원리에 무작위적인 예측변수 선택과정을 결합
+- 배깅 (bagging, bootstrap aggregating) 의 기본원리에 무작위적인 예측변수 선택과정을 결합
 - [의사결정나무](https://github.com/krrrr-b/decision-tree) 모델의 다양성을 증가시켜 과적합 가능성을 줄여주고 일반화 가능성을 향상
 
 ****랜덤 포레스트 절차****
 
-- 부트스트랩 표본을 바탕으로 다수의 의사결정나무 생성
+- [부트스트랩](https://github.com/krrrr-b/bootstrap/blob/main/README.md) 표본을 바탕으로 다수의 의사결정나무 생성
 1. 훈련 데이터로부터 복원추출 방식으로 n개 케이스를 반복추출하여 분석에 사용할 의사결정나무들을 생성
 2. 개별 의사결정나무를 생성할 때 m개의 변수 중 노드분할에 사용할 m개의 변수를 선택 (이때 변수의 개수 m은 모든 노드에 대해 동일하게 적용)
 - 개별 의사결정나무는 포함된 케이스들이 속한 범주의 상대적 빈도에 따라 최종노드의 귀속집단이 결정
