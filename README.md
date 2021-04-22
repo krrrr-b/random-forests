@@ -2,7 +2,7 @@
 
 - [앙상블 학습 (ensemble learning)](https://github.com/krrrr-b/ensemble-learning) 절차에 따라 다수의 의사결정나무를 생성한 후 개별 의사결정 나무의 예측결과를 종합하여 데이터를 분류
 - 배깅 (bagging, [bootstrap](https://github.com/krrrr-b/bootstrap/blob/main/README.md) aggregating) 의 기본원리에 무작위적인 예측변수 선택과정을 결합
-- 의사결정나무 모델의 다양성을 증가시켜 과적합 가능성을 줄여주고 일반화 가능성을 향상
+- [의사결정나무](https://github.com/krrrr-b/decision-tree) 모델의 다양성을 증가시켜 과적합 가능성을 줄여주고 일반화 가능성을 향상
 
 ****랜덤 포레스트 절차****
 
